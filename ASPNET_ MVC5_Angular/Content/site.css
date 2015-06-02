@@ -1,0 +1,163 @@
+﻿body {
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+html, body{
+    height:100%;
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*My To Do WebApp Css*/
+.mainContainer{
+    height:auto;
+    width:auto;
+}
+.topLeft{
+    border-bottom: 1px solid #A4A4A4;
+    float:left;
+    width:200px;
+    padding:4px;
+}
+.topCenter{
+    padding:4px;
+    border-left: 1px solid #A4A4A4;
+    border-bottom: 1px solid #A4A4A4;
+    float:left;
+    width:800px;
+    clear:right;
+}
+.midLeft{
+    float:left;
+    width:200px;
+}
+.midCenter{
+    border-left: 1px solid #A4A4A4;
+    float:left;
+    width:800px;
+    height:auto;
+    clear:right;
+}
+
+.mainFooter{
+    position:relative;
+    bottom:0;
+    text-align:center;
+}
+
+.topNav{
+    height:10%;
+    background-color:#2db7b0 !important;
+}
+
+.ulNav > li > a{
+    color:white !important;
+}
+.ulNav > li > a:hover{
+    color:black !important;
+}
+
+.ulList{
+    list-style-type: none;
+    margin-top:10px;
+}
+
+.layoutContainer{
+    height:90%;
+}
+
+.heading2Color{
+    color:#ee7501;
+}
+
+.dropDown{
+    margin-left:55px;
+
+}
+
+.btnAppLeft{
+    background-color:#2db7b0;
+    clear:both;
+    float:left;
+    margin:5px;
+    color:white;
+}
+
+.listItems{
+    float: left;
+    margin: 15px;
+    border-bottom: 1px solid #2db7b0;
+    clear: both;
+    width: 500px;
+}
+
+    .listItems > span {
+        margin:5px;
+        float:left;
+    }
+
+.btnsRight{
+    float:right;
+    background-color:#ee7501;
+}
+    .btnsRight:hover {
+        border:1px solid black;
+    }
+
+.addNewItem{
+    margin:15px 15px 15px 55px;
+}
+
+.modalItemInput{
+    float:left;
+    margin:5px;
+}
+
+.loader {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 30px;
+    height: 30px;
+}
+
+.isHidden{
+    display:none;
+}
+
+
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt { white-space: normal; }
+
+/* Set width on the form input elements since they're 100% wide by default */
+
+input,
+select,
+textarea { max-width: 280px; }
+
+.grid-style {
+    border: 1px solid rgb(212, 212, 212);
+    max-height: 300px;
+    min-height: 250px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.user-details { margin-top: 50px; }
+
+.gender-text {
+    margin: 5px;
+    vertical-align: sub;
+}

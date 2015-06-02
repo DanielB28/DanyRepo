@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="ASPNET__MVC5_Angular.MvcApplication" Language="C#" %>
